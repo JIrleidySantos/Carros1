@@ -11,7 +11,7 @@ package ec.edu.espoch.carros2.clases;
 public class SetyGet {
     
     private String marca;
-    private int modelo;
+    private double modelo;
     private double motor;
     private String tipoGasolina;
     private String tipoAutomovil;
@@ -32,11 +32,11 @@ public class SetyGet {
         this.marca = marca;
     }
 
-    public int getModelo() {
+    public double getModelo() {
         return modelo;
     }
 
-    public void setModelo(int modelo) {
+    public void setModelo(double modelo) {
         this.modelo = modelo;
     }
 
@@ -103,5 +103,7 @@ public class SetyGet {
     public void setVelocidadAct(double velocidadAct) {
         this.velocidadAct = velocidadAct;
     }
+    
+    
     
 }
