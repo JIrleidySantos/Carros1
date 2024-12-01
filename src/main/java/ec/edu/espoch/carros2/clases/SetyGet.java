@@ -156,5 +156,14 @@ public class SetyGet {
         System.out.println("La velocidad actual del automovil es: " + velocidadAct + " kilometro / hora ");
     }
     
-    
+       public static void main(String[] args) {
+        Carros2 carros2 = new Carros2();
+
+        carros2.mostrarDatos();
+        carros2.acelerar(100);
+        carros2.acelerar(20);
+        carros2.desacelerar(50);
+        carros2.TiempoLlegada(100); 
+        carros2.frenar();
+    }
 }

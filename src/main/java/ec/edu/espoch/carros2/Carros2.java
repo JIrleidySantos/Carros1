@@ -14,8 +14,6 @@ import ec.edu.espoch.carros2.clases.SetyGet;
 public class Carros2 {
 
     public static void main(String[] args) {
-
-        System.out.println("Hello  World!");
         
         SetyGet objSetyGet = new SetyGet();
         
@@ -29,7 +27,5 @@ public class Carros2 {
             objSetyGet.setNumeroAsientos(5);
             objSetyGet.setVelocidadMax(100);
             objSetyGet.setVelocidadAct(80);
-          
-            
     }
 }
