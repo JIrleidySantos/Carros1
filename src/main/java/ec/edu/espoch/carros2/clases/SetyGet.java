@@ -4,6 +4,10 @@
  */
 package ec.edu.espoch.carros2.clases;
 
+import ec.edu.espoch.carros2.enumeraciones.automovil;
+import ec.edu.espoch.carros2.enumeraciones.colores;
+import ec.edu.espoch.carros2.enumeraciones.combustible;
+
 /**
  *
  * @author mundo
@@ -13,17 +17,17 @@ public class SetyGet {
     private String marca;
     private double modelo;
     private double motor;
-    private String tipoGasolina;
-    private String tipoAutomovil;
+    private combustible tipoGasolina;
+    private automovil tipoAutomovil;
     private int numeroPuertas;
     private int numeroAsientos;
     private double velocidadMax = 0;
-    private String color;
+    private colores color;
     private double velocidadAct;
 
     public SetyGet() {
     }
-        
+
     public String getMarca() {
         return marca;
     }
@@ -48,19 +52,19 @@ public class SetyGet {
         this.motor = motor;
     }
 
-    public String getTipoGasolina() {
+    public combustible getTipoGasolina() {
         return tipoGasolina;
     }
 
-    public void setTipoGasolina(String tipoGasolina) {
+    public void setTipoGasolina(combustible tipoGasolina) {
         this.tipoGasolina = tipoGasolina;
     }
 
-    public String getTipoAutomovil() {
+    public automovil getTipoAutomovil() {
         return tipoAutomovil;
     }
 
-    public void setTipoAutomovil(String tipoAutomovil) {
+    public void setTipoAutomovil(automovil tipoAutomovil) {
         this.tipoAutomovil = tipoAutomovil;
     }
 
@@ -88,11 +92,11 @@ public class SetyGet {
         this.velocidadMax = velocidadMax;
     }
 
-    public String getColor() {
+    public colores getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(colores color) {
         this.color = color;
     }
 
@@ -102,7 +106,7 @@ public class SetyGet {
 
     public void setVelocidadAct(double velocidadAct) {
         this.velocidadAct = velocidadAct;
-    }
+    }    
     
     public void acelerar (int aumento) {
     

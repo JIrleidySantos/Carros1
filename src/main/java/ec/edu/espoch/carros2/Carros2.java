@@ -4,6 +4,9 @@
 package ec.edu.espoch.carros2;
 
 import ec.edu.espoch.carros2.clases.SetyGet;
+import ec.edu.espoch.carros2.enumeraciones.automovil;
+import ec.edu.espoch.carros2.enumeraciones.colores;
+import ec.edu.espoch.carros2.enumeraciones.combustible;
 
 
 
@@ -20,9 +23,9 @@ public class Carros2 {
             objSetyGet.setMarca("KIA");
             objSetyGet.setModelo(2015);
             objSetyGet.setMotor(900);
-            objSetyGet.setColor("Negro ");
-            objSetyGet.setTipoGasolina("Extra");
-            objSetyGet.setTipoAutomovil("Auto ");
+            objSetyGet.setColor(colores.AZUL);
+            objSetyGet.setTipoGasolina(combustible.DIESEL);
+            objSetyGet.setTipoAutomovil(automovil.COMPACTO);
             objSetyGet.setNumeroPuertas(5);
             objSetyGet.setNumeroAsientos(5);
             objSetyGet.setVelocidadMax(100);
