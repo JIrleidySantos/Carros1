@@ -33,7 +33,7 @@ public class Carros2 {
             objSetyGet.acelerar(100);
             objSetyGet.acelerar(20);
             objSetyGet.desacelerar(50);
-            objSetyGet.TiempoLlegada(100); 
+            objSetyGet.tiempoLlegada(100); 
             objSetyGet.frenar();
     }
 }

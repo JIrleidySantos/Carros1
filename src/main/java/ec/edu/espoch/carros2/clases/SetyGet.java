@@ -17,7 +17,7 @@ public class SetyGet {
     private String tipoAutomovil;
     private int numeroPuertas;
     private int numeroAsientos;
-    private double velocidadMax = 0;
+    private double velocidadMax;
     private String color;
     private double velocidadAct;
 
@@ -131,7 +131,7 @@ public class SetyGet {
         System.out.println("Velocidad actual que se va a frenar: por 0 kilometro / hora ");
     }
     
-    public double TiempoLlegada(double distancia) {
+    public double tiempoLlegada(double distancia) {
         if (velocidadAct == 0) {
             System.out.println("Vehículo estacionado. No se puede calcula el tiempo de llegada.");
             return -1;
