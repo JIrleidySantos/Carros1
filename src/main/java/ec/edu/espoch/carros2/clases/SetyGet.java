@@ -104,6 +104,55 @@ public class SetyGet {
         this.velocidadAct = velocidadAct;
     }
     
+    public void acelerar (int aumento) {
     
+        if (velocidadAct + aumento >velocidadMax ){
+        
+            System.out.println("No supera la velocidad maxima de: " +velocidadMax + " kilometro/hora ");
+        } else {
+        
+            velocidadAct+= aumento;
+            System.out.println("Aceleramiento de velocidad: " +velocidadAct + " kilometro / hora ");
+        }
+    }
+    
+    public void desacelerar (int disminuir) {
+    
+        if (velocidadAct - disminuir < 0 ){
+        
+            System.out.println("No se acelera bajo 0 kilometro / hora");
+            velocidadAct = 0;
+        }
+    }
+    
+    public void frenar() {
+    
+        velocidadAct =  0;
+        System.out.println("Velocidad actual que se va a frenar: por 0 kilometro / hora ");
+    }
+    
+    public double TiempoLlegada(double distancia) {
+        if (velocidadAct == 0) {
+            System.out.println("Vehículo estacionado. No se puede calcula el tiempo de llegada.");
+            return -1;
+        }
+        double tiempo = distancia / velocidadAct;
+        System.out.println("El tiempo de llegada es: " + tiempo + " horas.");
+        return tiempo;
+    }
+    
+     public void mostrarDatos() {
+        System.out.println("Mostrar datos del Automóvil:");
+        System.out.println("La marca del automovil: " + marca);
+        System.out.println("El modelo del automovil es: " + modelo);
+        System.out.println("Color del automovil es: " + color);
+        System.out.println("Motor: " + motor + " litros ");
+        System.out.println("Tipo de gasolina es: " + tipoGasolina);
+        System.out.println("Tipo de Automóvil: " + tipoAutomovil);
+        System.out.println("El número de puertas: " + numeroPuertas);
+        System.out.println("El numero de asientos: " + numeroAsientos);
+        System.out.println("La velocidad máxima del automovil es: " + velocidadMax + " kilometro / hora ");
+        System.out.println("La velocidad actual del automovil es: " + velocidadAct + " kilometro / hora ");
+    }
     
 }
