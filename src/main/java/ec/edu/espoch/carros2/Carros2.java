@@ -20,7 +20,7 @@ public class Carros2 {
             objSetyGet.setMarca("KIA");
             objSetyGet.setModelo(2015);
             objSetyGet.setMotor(900);
-            objSetyGet.setColor("Negro");
+            objSetyGet.setColor("Negro ");
             objSetyGet.setTipoGasolina("Extra");
             objSetyGet.setTipoAutomovil("Auto");
             objSetyGet.setNumeroPuertas(5);
