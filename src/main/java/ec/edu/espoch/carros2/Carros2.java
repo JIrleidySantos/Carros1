@@ -27,7 +27,6 @@ public class Carros2 {
             objSetyGet.setNumeroAsientos(5);
             objSetyGet.setVelocidadMax(100);
             objSetyGet.setVelocidadAct(80);
-           
 
             objSetyGet.mostrarDatos();
             objSetyGet.acelerar(100);
@@ -35,5 +34,6 @@ public class Carros2 {
             objSetyGet.desacelerar(50);
             objSetyGet.tiempoLlegada(100); 
             objSetyGet.frenar();
+
     }
 }

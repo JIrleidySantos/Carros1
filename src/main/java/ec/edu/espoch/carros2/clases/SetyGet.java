@@ -154,5 +154,4 @@ public class SetyGet {
         System.out.println("La velocidad máxima del automovil es: " + velocidadMax + " kilometro / hora ");
         System.out.println("La velocidad actual del automovil es: " + velocidadAct + " kilometro / hora ");
     }
-    
 }
