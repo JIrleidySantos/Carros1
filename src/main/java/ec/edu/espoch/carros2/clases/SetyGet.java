@@ -21,13 +21,8 @@ public class SetyGet {
     private automovil tipoAutomovil;
     private int numeroPuertas;
     private int numeroAsientos;
-<<<<<<< HEAD
     private double velocidadMax;
-    private String color;
-=======
-    private double velocidadMax = 0;
     private colores color;
->>>>>>> dev-Jir
     private double velocidadAct;
 
     public SetyGet() {
