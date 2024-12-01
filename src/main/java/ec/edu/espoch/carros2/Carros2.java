@@ -22,7 +22,7 @@ public class Carros2 {
             objSetyGet.setMotor(900);
             objSetyGet.setColor("Negro ");
             objSetyGet.setTipoGasolina("Extra");
-            objSetyGet.setTipoAutomovil("Auto");
+            objSetyGet.setTipoAutomovil("Auto ");
             objSetyGet.setNumeroPuertas(5);
             objSetyGet.setNumeroAsientos(5);
             objSetyGet.setVelocidadMax(100);
